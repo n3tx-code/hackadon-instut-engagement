@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['USER'])) {
-    // todo : show page bénévoles ou lauréats
+    header("Location: /app/");
 } else {
     if(isset($_POST['email']) AND isset($_POST['pwd'])) {
         require_once($_SERVER['DOCUMENT_ROOT'] . "/_includes/models/User.php");

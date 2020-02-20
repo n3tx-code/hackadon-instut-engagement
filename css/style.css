@@ -13,3 +13,58 @@ body, html {
 .msg {
     padding: 20px;
 }
+a.nav-link:hover {
+    text-decoration: underline;
+}
+.navbar {
+    background-image: url("/img/header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+#besoin-wrapper{
+    padding: 70px;
+}
+.besoin {
+    padding: 25px;
+}
+.card-header {
+    height: 100px;
+    padding-top: 35px;
+}
+img.benevole-card-img {
+    height: 90px;
+    width: 90px;
+    margin-top: -70px;
+}
+.card-content {
+    margin-top: 32px;
+}
+.card-content > ul > li {
+    list-style: none;
+}
+.besoin > a > .card:hover {
+    box-shadow: 0px 0px 10px #8a8a8a;
+}
+.card-link:hover {
+    text-decoration: none;
+}
+#besoin-header {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 70px
+}
+#discussion {
+    position: fixed;
+    width: 350px;
+    bottom: 0;
+    right: 1%;
+}
+#discussion-list-header {
+    padding: 10px;
+    cursor: pointer;
+}
+.discussion-list-row-name {
+    margin-top: 18px;
+}

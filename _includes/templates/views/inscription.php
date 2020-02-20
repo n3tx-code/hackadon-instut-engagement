@@ -11,7 +11,7 @@ ob_start();
                 <button type="button" class="btn btn-danger btn-block" id="btnLaureat">Lauréat</button>
             </div>
             <div class="col-6">
-                <button type="button" class="btn btn-outline-danger btn-block" id="btnBenevole">Bénévole</button>
+                <button type="button" class="btn btn-primary btn-block" id="btnBenevole">Bénévole</button>
             </div>
         </div>
         <div class="row" style="margin-top: 50px" id="btnConnexion">

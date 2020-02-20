@@ -11,6 +11,15 @@ class User
     public $name;
     public $token;
 
+    function get() {
+        $json = json_decode($_SESSION['USER']);
+        $this->id = $json->ID;
+        $this->email = $json->EMAIL;
+        $this->name = $json->NAME;
+        $this->token = $json->TOKEN;
+        $this->type = $json->TYPE;
+    }
+
     function signInBenevole($email1, $email2, $pwd1, $pwd2, $name) {
         $email1 = htmlspecialchars($email1);
         $email2 = htmlspecialchars($email2);
